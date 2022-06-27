@@ -1,0 +1,523 @@
+{
+    "config":{
+        "element":[
+            {
+                "name":"Institucional",
+                "image": "fa-solid fa-book",
+                "url": "#",
+                "menu_permission":[],
+                "submenu":[
+                    {
+                        "name": "Alimentos y Bebida",
+                        "url": "https://net.voygastronomia.com/institucional/alimentoybebida.php",
+                        "permissions":{
+                            "franchises":[
+                                1,3,6,7,8,9,10,11,12,13,0
+                            ],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Capacitación",
+                        "url": "https://net.voygastronomia.com/institucional/capacitacion.php",
+                        "permissions":{
+                            "franchises":[
+                                1,3,6,7,8,9,10,11,12,13,0
+                            ],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Desarrollo",
+                        "url": "https://net.voygastronomia.com/institucional/desarrollo.php",
+                        "permissions":{
+                            "franchises":[
+                                1,3,6,7,8,9,10,11,12,13,0
+                            ],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Marketing",
+                        "url": "https://net.voygastronomia.com/institucional/marketing.php",
+                        "permissions":{
+                            "franchises":[
+                                1,3,6,7,8,9,10,11,12,13,0
+                            ],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Operaciones",
+                        "url": "https://net.voygastronomia.com/institucional/operaciones.php",
+                        "permissions":{
+                            "franchises":[
+                                1,3,6,7,8,9,10,11,12,13,0
+                            ],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Peñon del Aguila",
+                        "url": "https://net.voygastronomia.com/institucional/penon.php",
+                        "permissions":{
+                            "franchises":[
+                                2
+                            ],
+                            "users":[
+                                "freddy",
+                                "desarrollo"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name":"Herramientas",
+                "image": "fa-solid fa-screwdriver-wrench",
+                "url": "#",
+                "menu_permission":[],
+                "submenu":[
+                    {
+                        "name": "Inventario",
+                        "url": "https://net.voygastronomia.com/inventario/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Compras",
+                        "url": "https://net.voygastronomia.com/planillascompras/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Actualizar Precios",
+                        "url": "https://net.voygastronomia.com/planillasprecios/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Recetas",
+                        "url": "https://net.voygastronomia.com/recetas/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Articulos de Producción",
+                        "url": "https://net.voygastronomia.com/articulosproduccion/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Proyecciones",
+                        "url": "https://net.voygastronomia.com/proyecciones/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Planillas de Caja",
+                        "url": "https://net.voygastronomia.com/planillacaja/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[
+                                "jbgsantafe", 
+                                "desarrollo", 
+                                "jbgneuquen", 
+                                "jbglaplata", 
+                                "jbgaviadores", 
+                                "jbggaleria", 
+                                "jbgpinedo", 
+                                "penoncerro", 
+                                "penonguemes", 
+                                "penonlaplata", 
+                                "penonparana", 
+                                "jbgzamora", 
+                                "penonpalermo", 
+                                "jbgsanjuan", 
+                                "jbgtucuman", 
+                                "penonlaplata2", 
+                                "jbgcondes", 
+                                "jbgvlopez", 
+                                "jbgvcabrera", 
+                                "jbgcerro", 
+                                "jbgnuevacba", 
+                                "jbgmadero", 
+                                "jbgjardin", 
+                                "jbgrio4", 
+                                "jbgmendoza", 
+                                "sushibaxar", 
+                                "jbgpalermo", 
+                                "penoncastelar", 
+                                "penonsanrafael", 
+                                "penoncarlospaz", 
+                                "penonrosario", 
+                                "penonfunes", 
+                                "penonjardin", 
+                                "penontucuman", 
+                                "penonsantafe", 
+                                "penontucuman2", 
+                                "penonmendoza", 
+                                "sushitejeda", 
+                                "sushijardin", 
+                                "sushicentro", 
+                                "sushivallende", 
+                                "sushilaplata", 
+                                "sushivescondido", 
+                                "sushinuevacba", 
+                                "sushicarlospaz", 
+                                "sushiintercountries", 
+                                "sushigeneralpaz", 
+                                "ombcerro", 
+                                "marie", 
+                                "jbgcastelar", 
+                                "idagauss", 
+                                "penonnuevacordoba", 
+                                "gerenteJuanBautista", 
+                                "sushisanfrancisco", 
+                                "sushirio3", 
+                                "sushimanantiales", 
+                                "sushirio4", 
+                                "sushiriotercero", 
+                                "amjjuanb", 
+                                "amjpuente", 
+                                "amjamerico", 
+                                "penonrafaela", 
+                                "penonmadero", 
+                                "penontapiales", 
+                                "penonbaxar", 
+                                "barracudagaus", 
+                                "jbgnuevacbaviejo", 
+                                "sushivillamaria", 
+                                "penonsantiago", 
+                                "juanperrone", 
+                                "nepaterraforte", 
+                                "penonsalta", 
+                                "americorosario", 
+                                "juanbitamae", 
+                                "sushirioceballos", 
+                                "sushiparana", 
+                                "sushisantiago", 
+                                "penonlanus", 
+                                "jbgcasino", 
+                                "penonsanjuan", 
+                                "idacompras", 
+                                "barracudavallende"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name":"Informes",
+                "image": "fa-solid fa-file-circle-question",
+                "url": "#",
+                "menu_permission":[],
+                "submenu":[
+                    {
+                        "name": "Reporte de Ventas Diario",
+                        "url": "https://net.voygastronomia.com/reportes/indexAMJ.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[
+                                "amjamerico",
+                                "amjpuente",
+                                "amjjuanb"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Reporte de Ventas Diarias",
+                        "url": "https://net.voygastronomia.com/Informes/Venta_por_Dia/view_venta_por_dia.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Reportes de Ventas Evolutivas",
+                        "url": "https://net.voygastronomia.com/Informes/Venta_Evolutiva/View_venta_evolutiva.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Reportes de Tickets Emitidos",
+                        "url": "https://net.voygastronomia.com/Informes/Tickets_Emitidos/View_ticketsEmitidos.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Precio de Compra",
+                        "url": "https://net.voygastronomia.com/precioscompra/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Precio de Venta",
+                        "url": "https://net.voygastronomia.com/preciosventa/index.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Stock Valorado",
+                        "url": "https://net.voygastronomia.com/Informes/Cmv/view_cmv.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Venta por Artículo",
+                        "url": "https://net.voygastronomia.com/Informes/Venta_por_Articulo/view_venta_articulos.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Artículos Quitados",
+                        "url": "https://net.voygastronomia.com/Informes/Ticket_Quitados/View_ticketsQuitados.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Comparar Ventas",
+                        "url": "https://net.voygastronomia.com/compararventas/index.php",
+                        "permissions":{
+                            "franchises":[0],
+                            "users":[
+                                "administracion",
+                                "administracionbrex",
+                                "jimena"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Tablero Gerencial",
+                        "url": "https://net.voygastronomia.com/Informes/Tablero_Gerencial/view_tablero_gerencial.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                        
+                    }
+                ]
+            },
+            {
+                "name":"Pedidos",
+                "image": "fa-solid fa-code-pull-request",
+                "url": "#",
+                "menu_permission":[],
+                "submenu":[
+                    {
+                        "name": "Pedidos Marketing - Locales Voy!",
+                        "url": "https://form.asana.com/?k=3xRFYgv4Cva9rozbVyjsVA&d=31770301050023",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Pedidos Operaciones - Locales Voy!",
+                        "url": "https://form.asana.com/?k=cmYy4y-D-MS2wxE9nG146Q&d=31770301050023",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Pedidos Desarrollo - Locales Voy!",
+                        "url": "https://form.asana.com?k=feyMjhKiuEJX3byEy6mnJA&d=31770301050023",
+                        "permissions":{
+                            "franchises":[],
+                            "users":["barracudagaus"]
+                        }
+                    },
+                    {
+                        "name": "Pedidos Desarrollo - Locales Voy!",
+                        "url": "https://form.asana.com/?k=feyMjhKiuEJX3byEy6mnJA&d=31770301050023",
+                        "permissions":{
+                            "franchises":[1],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Pedidos Desarrollo - Locales Voy!",
+                        "url": "https://form.asana.com/?k=LiRGdPssgB5BVBrRLmmVsg&d=31770301050023",
+                        "permissions":{
+                            "franchises":[6],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Pedidos Desarrollo - Locales Voy!",
+                        "url": "https://form.asana.com/?k=76LJ78b8RsoaPg-ex4Q7Kg&d=31770301050023",
+                        "permissions":{
+                            "franchises":[8],
+                            "users":[]
+                        }
+                    },
+                    {
+                        "name": "Pedidos Desarrollo - Locales Voy!",
+                        "url": "https://form.asana.com/?k=5sGQn2YI53BwwawOwm0jlw&d=31770301050023",
+                        "permissions":{
+                            "franchises":[9],
+                            "users":[]
+                        }
+                    }
+                ]
+            },
+            {
+                "name":"Auditorías",
+                "image": "fa-solid fa-magnifying-glass",
+                "url": "#",
+                "menu_permission":[],
+                "submenu":[
+                    {
+                        "name": "Cargar Auditorías",
+                        "url": "https://net.voygastronomia.com/auditoriasprincipal/index.php",
+                        "permissions":{
+                            "franchises":[0],
+                            "users":[
+                                "operacionessushi",
+                                "isidoro",
+                                "adminsushi",
+                                "operacionesjbg",
+                                "operacionespenon",
+                                "manuel",
+                                "operacionesida",
+                                "operacionesjuanb",
+                                "operacionesdad",
+                                "operacionesamj",
+                                "operacionestiendas",
+                                "operacionesbarracuda",
+                                "operacionesnepa"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Detalles de Auditorías",
+                        "url": "https://net.voygastronomia.com/auditoriasprincipal/detalleauditorias.php",
+                        "permissions":{
+                            "franchises":[0],
+                            "users":[
+                                "operacionessushi",
+                                "isidoro",
+                                "adminsushi",
+                                "operacionessushi",
+                                "isidoro",
+                                "adminsushi",
+                                "operacionesjbg",
+                                "operacionespenon",
+                                "manuel",
+                                "operacionesida",
+                                "operacionesjuanb",
+                                "operacionesdad",
+                                "operacionesamj",
+                                "operacionestiendas",
+                                "operacionesbarracuda",
+                                "operacionesnepa"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Mistery Shopper - Llamada",
+                        "url": "https://form.asana.com/?k=hM8odS873jrtR3wJ_yXr4w&d=31770301050023",
+                        "permissions":{
+                            "franchises":[0],
+                            "users":[
+                                "operacionessushi",
+                                "isidoro",
+                                "adminsushi"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Mistery Shopper - App",
+                        "url": "https://form.asana.com/?k=UBJPLjfl6NYsxqJKYw2hkQ&d=31770301050023",
+                        "permissions":{
+                            "franchises":[0],
+                            "users":[
+                                "operacionessushi",
+                                "isidoro",
+                                "adminsushi"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name":"Central Telefonica",
+                "image": "fa-solid fa-phone",
+                "menu_permission":[],
+                "url": "https://net.voygastronomia.com/Audios/Central_telefonica/View_central_telefonica.php",
+                "submenu":[],
+                "permissions":{
+                    "franchises":[],
+                    "users":[]
+                }
+            },
+            {
+                "name":"Desarrollo",
+                "image": "fa-solid fa-code",
+                "url": "#",
+                "menu_permission":[
+                    "desarrollo"
+                ],
+                "submenu":[
+                    {
+                        "name": "Usuarios",
+                        "url": "https://net.voygastronomia.com/Desarrollo/Users/View_users.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[
+                                "desarrollo"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Locales",
+                        "url": "https://net.voygastronomia.com/Desarrollo/Locales/View_locales.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[
+                                "desarrollo"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Franquicias",
+                        "url": "https://net.voygastronomia.com/Desarrollo/Franquicias/View_franquicias.php",
+                        "permissions":{
+                            "franchises":[],
+                            "users":[
+                                "desarrollo"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
