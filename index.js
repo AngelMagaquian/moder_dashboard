@@ -32,11 +32,6 @@ $(document).ready(function(){
     })
 })
 
-
-
-
-
-
 const addMenu = (e) =>{
     $('#navigation-list').append(`
         <li class="navigation-list-item">
@@ -74,27 +69,6 @@ const addMenu_list = (e) =>{
         </li>
     `)
 }
-
-{/* <li class="navigation-list-item dropdown">
-                        
-  <a class="navigation-link" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <div class="row">
-          <div class="col-2">
-              <i class="fas fa-calendar-alt"></i>
-          </div>
-          <div class="col-9">
-              Submenu
-          </div>
-      </div>
-      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-  </a>
-  
-</li> */}
 
 const addSubmenu = (sub) =>{
     let user = $('#user').val()
@@ -137,3 +111,8 @@ const exist_per = (per) =>{
         return false
     }
 }
+
+$('#btn-log-out').click(function(){
+    let option = confirm('¿Desea cerrar sesión?')
+    option ? alert('sesion cerrada') : alert('continua logueado')
+})
